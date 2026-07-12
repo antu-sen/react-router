@@ -5,12 +5,17 @@ import { createBrowserRouter, RouterProvider } from "react-router";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <div className="text-2xl text-cyan-500 text-center">Hello react router</div>,
+    element: <div className="text-4xl text-cyan-500 text-center">Hello react router</div>,
   },
 
   {
     path: "/about",
     element: <div className="text-4xl text-amber-500 text-center">About Page</div>
+  },
+
+  {
+    path: "/products",
+    element : <div className="text-4xl text-red-500 text-center">Products Page</div>
   }
 ]);
 

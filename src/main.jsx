@@ -5,7 +5,7 @@ import { createBrowserRouter, RouterProvider } from "react-router";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <div className="text-4xl text-cyan-500 text-center">Hello react router</div>,
+    element: ,
   },
 
   {

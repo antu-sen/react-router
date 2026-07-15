@@ -1,7 +1,7 @@
 const Trusted = () => {
     return (
         <div>
-            
+            This is a Trusted section
         </div>
     );
 };
